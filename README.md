@@ -2,11 +2,9 @@
 
 **Understanding the Presence of Inappropriate Content in Music Lyrics: Insights for Children’s Recommender Systems**
 
-A research project by Jasper Heijne.
-
 ## Overview
 
-This research project aims to analyze the presence of inappropriate content in music lyrics and provide insights for developing children’s music recommender systems. The research paper can be found at: (link to TU Delft paper-repository).
+This research project aims to analyze the presence of inappropriate content in music lyrics and provide insights for developing children’s music recommender systems.
 
 ### Preprocessing Data
 
@@ -45,8 +43,4 @@ To process the lyrics, use the functions in `processingData.py`.
 ## Discussion
 
 The analysis reveals that inappropriate content is present across various music genres. Recommender systems should be cautious when suggesting Rap and R&B music to children. A more nuanced filter considering different facets of inappropriateness is recommended.
-
-## How to Cite
-
-If you use this code or data in your research, please cite the corresponding publication: (link to TU Delft paper-repository).
 
