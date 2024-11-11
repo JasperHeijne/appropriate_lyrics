@@ -36,6 +36,19 @@ To process the lyrics, use the functions in `processingData.py`.
 
 - **Run Readability Methods and Create Boxplot**: `readability_check.py`
 
+
+### Hard-words check
+- Add the [phonetic dictionary](https://github.com/open-dict-data/ipa-dict/blob/master/data/en_US.txt) as `phoneticDictionary.csv` 
+
+- **Run a script with the following code:**
+```python
+import nltk
+nltk.download('averaged_perceptron_tagger')
+nltk.download('stopwords')
+```
+- **Run calculation of hard words**: `calc_hard_words_scan.py`
+
+
 ### Statistical Analysis
 
 - **Kruskal-Wallis Experiment and Post Hoc Test by Dunn**: `kruskal_willis_dunns.py`
